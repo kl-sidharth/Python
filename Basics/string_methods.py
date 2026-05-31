@@ -1,0 +1,16 @@
+str = "  I am Learning Python language   "
+
+print("Original String:", str)
+print("\nAfter removing spaces:", str.strip())
+print("\nUppercase:", str.upper())
+print("\nLowercase:", str.lower())
+print("\nTitle Case:", str.title())
+print("\nReplace Python with Java:", str.replace("Python", "Java"))
+print("\nLength of String:", len(str))
+print("\nCount of 'o':", str.lower().count("o"))
+print("\nStarts with 'Python':", str.startswith("Python"))
+print("\nEnds with 'language':", str.endswith("language"))
+print("\nFind 'Easy':", str.find("Easy"))
+print("\nSplit into words:", str.split())
+print("\nCheck if 'Fun' exists:", "Fun" in str)
+print("\nCapitalize:", str.capitalize())
