@@ -1,7 +1,7 @@
 x = 10
 y = 3
 
-print("x =", x)
+print("x =", x) 
 print("y =", y)
 
 print("\nAddition:", x + y)
